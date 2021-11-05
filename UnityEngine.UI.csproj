@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{98A08C15-5D8E-15E5-3AB7-2D62B53AB4F3}</ProjectGuid>
+    <ProjectGuid>{BCCB8373-C072-0F0B-A0F3-1F37B1719DDB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UnityEngine.UI</AssemblyName>
@@ -93,8 +93,8 @@
     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\InputField.cs" />
     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\InputModules\StandaloneInputModule.cs" />
     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Scrollbar.cs" />
-    <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\FontUpdateTracker.cs" />
     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\ToggleGroup.cs" />
+    <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\FontUpdateTracker.cs" />
     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\RaycastResult.cs" />
     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Button.cs" />
     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\ColorBlock.cs" />

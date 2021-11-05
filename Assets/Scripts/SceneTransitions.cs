@@ -8,15 +8,16 @@ public class SceneTransitions : MonoBehaviour
 {
 	public Animator crossfade;
 	public Button level1Btn;
-	public Text readyLbl;
-	public AudioSource ghostNormal;
+	//public Text readyLbl;
+	//public AudioSource ghostNormal;
 
 	// Start is called before the first frame update
 	void Start()
 	{
-		if (SceneManager.GetActiveScene().buildIndex == 1) {
+		/*if (SceneManager.GetActiveScene().buildIndex == 1)
+		{
 			StartCoroutine(PlayAudio());
-		}
+		}*/
 
 		Button btn = level1Btn.GetComponent<Button>();
 		btn.onClick.AddListener(TaskOnClick);
@@ -24,24 +25,26 @@ public class SceneTransitions : MonoBehaviour
 
 	// Update is called once per frame
 	void Update()
-    {
-        
-    }
+	{
+
+	}
 
 	void TaskOnClick()
 	{
 		StartCoroutine(LoadLevel(1));
 	}
 
-	IEnumerator LoadLevel(int buildIndex) {
+	IEnumerator LoadLevel(int buildIndex)
+	{
 		crossfade.SetTrigger("start");
 		yield return new WaitForSeconds(1);
 		SceneManager.LoadScene(buildIndex);
 	}
 
-	IEnumerator PlayAudio() {
+	/*IEnumerator PlayAudio()
+	{
 		yield return new WaitForSeconds(5);
 		ghostNormal.Play();
 		readyLbl.enabled = false;
-	}
+	}*/
 }
