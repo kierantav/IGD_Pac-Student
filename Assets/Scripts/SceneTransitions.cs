@@ -8,12 +8,12 @@ public class SceneTransitions : MonoBehaviour
 {
 	public Animator crossfade;
 	public Button level1Btn;
+	public Text readyLbl;
 	public AudioSource ghostNormal;
 
 	// Start is called before the first frame update
 	void Start()
 	{
-
 		if (SceneManager.GetActiveScene().buildIndex == 1) {
 			StartCoroutine(PlayAudio());
 		}
@@ -42,5 +42,6 @@ public class SceneTransitions : MonoBehaviour
 	IEnumerator PlayAudio() {
 		yield return new WaitForSeconds(5);
 		ghostNormal.Play();
+		readyLbl.enabled = false;
 	}
 }
