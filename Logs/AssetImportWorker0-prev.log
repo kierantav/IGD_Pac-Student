@@ -1,0 +1,337 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.4f1 (becced5a802b) revision 12504301'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 18363.1556; Version 1909; 64bit' Language: 'en' Physical Memory: 16310 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/kiera/Documents/13_IGD/13230255_A4_Project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64672
+Successfully changed project path to: C:/Users/kiera/Documents/13_IGD/13230255_A4_Project
+C:/Users/kiera/Documents/13_IGD/13230255_A4_Project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 30.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.4f1 (becced5a802b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/kiera/Documents/13_IGD/13230255_A4_Project/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
+    Vendor:   
+    VRAM:     8079 MB
+    Driver:   27.21.14.6647
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56640
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001764 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 31.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.928 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001303 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 30.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.765 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1798 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.3 MB.
+System memory in use after: 84.3 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2239.
+Total: 2.160100 ms (FindLiveObjects: 0.245100 ms CreateObjectMapping: 0.041600 ms MarkObjects: 1.738800 ms  DeleteObjects: 0.133400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Sprites/BlueGhost.png
+  artifactKey: Guid(74c42cae2718ca64c9ca8ff04a6da72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BlueGhost.png using Guid(74c42cae2718ca64c9ca8ff04a6da72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e7a1780c39c7bece012db1cada30b29') in 0.138082 seconds
+  Import took 0.141244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.688461 seconds.
+  path: Assets/Sprites/BlueGhost.png
+  artifactKey: Guid(74c42cae2718ca64c9ca8ff04a6da72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BlueGhost.png using Guid(74c42cae2718ca64c9ca8ff04a6da72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb7c1e28aa3548d3569cf27e0b3b83fb') in 0.012422 seconds
+  Import took 0.015649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.563087 seconds.
+  path: Assets/Sprites/BlueGhost.png
+  artifactKey: Guid(74c42cae2718ca64c9ca8ff04a6da72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BlueGhost.png using Guid(74c42cae2718ca64c9ca8ff04a6da72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c65e4b8f14076bd872a2d6a6508296c') in 0.011458 seconds
+  Import took 0.014796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.174234 seconds.
+  path: Assets/Sprites/BlueGhost.png
+  artifactKey: Guid(74c42cae2718ca64c9ca8ff04a6da72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BlueGhost.png using Guid(74c42cae2718ca64c9ca8ff04a6da72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2afd2b7db98340f7a69dc59b1f0db4f1') in 0.012230 seconds
+  Import took 0.015341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.342778 seconds.
+  path: Assets/Sprites/BlueGhost.png
+  artifactKey: Guid(74c42cae2718ca64c9ca8ff04a6da72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BlueGhost.png using Guid(74c42cae2718ca64c9ca8ff04a6da72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6acd1a4d8086d5b31e553475b1cc4af') in 0.012985 seconds
+  Import took 0.016018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.752593 seconds.
+  path: Assets/Sprites/BlueGhost.png
+  artifactKey: Guid(74c42cae2718ca64c9ca8ff04a6da72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BlueGhost.png using Guid(74c42cae2718ca64c9ca8ff04a6da72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '015d531f6c22880f1780d974b8b6b1da') in 0.012506 seconds
+  Import took 0.015608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.496381 seconds.
+  path: Assets/Sprites/BlueGhost.png
+  artifactKey: Guid(74c42cae2718ca64c9ca8ff04a6da72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BlueGhost.png using Guid(74c42cae2718ca64c9ca8ff04a6da72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd361536436cbc5c0791201d343d07948') in 0.010852 seconds
+  Import took 0.013830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.864823 seconds.
+  path: Assets/Sprites/BlueGhost.png
+  artifactKey: Guid(74c42cae2718ca64c9ca8ff04a6da72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BlueGhost.png using Guid(74c42cae2718ca64c9ca8ff04a6da72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ee2f440411fe2e64c46301534fa75a2') in 0.010648 seconds
+  Import took 0.013717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.335797 seconds.
+  path: Assets/Sprites/OrangeGhost.png
+  artifactKey: Guid(f88115613c8cc304a99884f3dca204a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/OrangeGhost.png using Guid(f88115613c8cc304a99884f3dca204a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0622d3b462c4186b8d9f1c3c1abae6cc') in 0.016113 seconds
+  Import took 0.019551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.607199 seconds.
+  path: Assets/Sprites/PinkGhost.png
+  artifactKey: Guid(5dd369b2b75b3374a91c29da19aa4d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PinkGhost.png using Guid(5dd369b2b75b3374a91c29da19aa4d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c7e2a29d3c107da07eb701a868234c5') in 0.014256 seconds
+  Import took 0.017969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.025456 seconds.
+  path: Assets/Sprites/RedGhost.png
+  artifactKey: Guid(de88310cb2e1ab64889e5752630ec69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/RedGhost.png using Guid(de88310cb2e1ab64889e5752630ec69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2246a59f71ce1fad2f243eb7fe79033') in 0.015063 seconds
+  Import took 0.018345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.089368 seconds.
+  path: Assets/Sprites/PinkGhost.png
+  artifactKey: Guid(5dd369b2b75b3374a91c29da19aa4d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/PinkGhost.png using Guid(5dd369b2b75b3374a91c29da19aa4d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb82fd865cba82fdc7ce53b7e386215') in 0.011188 seconds
+  Import took 0.014586 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000809 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.689 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1793 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.4 MB.
+System memory in use after: 87.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2249.
+Total: 2.027200 ms (FindLiveObjects: 0.221000 ms CreateObjectMapping: 0.041000 ms MarkObjects: 1.654600 ms  DeleteObjects: 0.108600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000900 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.685 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1793 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.4 MB.
+System memory in use after: 87.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2252.
+Total: 1.867800 ms (FindLiveObjects: 0.236300 ms CreateObjectMapping: 0.041300 ms MarkObjects: 1.482800 ms  DeleteObjects: 0.106300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 150.020019 seconds.
+  path: Assets/Prefabs/BlueGhost.prefab
+  artifactKey: Guid(5372f530c5f02754a9d9c51a00e07df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BlueGhost.prefab using Guid(5372f530c5f02754a9d9c51a00e07df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0be281ea68449acbdd467d3c962914c0') in 0.048002 seconds
+  Import took 0.051153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.770580 seconds.
+  path: Assets/Prefabs/OrangeGhost_0.prefab
+  artifactKey: Guid(cb219deaf5ce6cd44804f6756d39199f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/OrangeGhost_0.prefab using Guid(cb219deaf5ce6cd44804f6756d39199f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '723a7afc4794e71875bc6aace946ea91') in 0.011416 seconds
+  Import took 0.014344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005497 seconds.
+  path: Assets/Prefabs/OrangeGhost_0.prefab
+  artifactKey: Guid(cb219deaf5ce6cd44804f6756d39199f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/OrangeGhost_0.prefab using Guid(cb219deaf5ce6cd44804f6756d39199f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '723a7afc4794e71875bc6aace946ea91') in 0.007883 seconds
+  Import took 0.010898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.386625 seconds.
+  path: Assets/Prefabs/PinkGhost_0.prefab
+  artifactKey: Guid(9d36135128454e94fab9a8a023de4871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PinkGhost_0.prefab using Guid(9d36135128454e94fab9a8a023de4871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae1486d02d08f6c0fd8f061c262138f6') in 0.012898 seconds
+  Import took 0.016107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006744 seconds.
+  path: Assets/Prefabs/PinkGhost_0.prefab
+  artifactKey: Guid(9d36135128454e94fab9a8a023de4871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PinkGhost_0.prefab using Guid(9d36135128454e94fab9a8a023de4871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae1486d02d08f6c0fd8f061c262138f6') in 0.007607 seconds
+  Import took 0.010771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.145001 seconds.
+  path: Assets/Prefabs/RedGhost_0.prefab
+  artifactKey: Guid(31abe4f1f11c7384bba0fa8de9f36575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/RedGhost_0.prefab using Guid(31abe4f1f11c7384bba0fa8de9f36575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bde6c1e36035e0c761a3e3cd85f894a') in 0.011637 seconds
+  Import took 0.014786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005438 seconds.
+  path: Assets/Prefabs/RedGhost_0.prefab
+  artifactKey: Guid(31abe4f1f11c7384bba0fa8de9f36575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/RedGhost_0.prefab using Guid(31abe4f1f11c7384bba0fa8de9f36575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bde6c1e36035e0c761a3e3cd85f894a') in 0.007316 seconds
+  Import took 0.010527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.814156 seconds.
+  path: Assets/Prefabs/BlueGhost.prefab
+  artifactKey: Guid(5372f530c5f02754a9d9c51a00e07df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BlueGhost.prefab using Guid(5372f530c5f02754a9d9c51a00e07df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '339d31de28c3aa73dabff8803d840498') in 0.009293 seconds
+  Import took 0.012324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007916 seconds.
+  path: Assets/Prefabs/BlueGhost.prefab
+  artifactKey: Guid(5372f530c5f02754a9d9c51a00e07df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BlueGhost.prefab using Guid(5372f530c5f02754a9d9c51a00e07df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '339d31de28c3aa73dabff8803d840498') in 0.007093 seconds
+  Import took 0.010108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.540168 seconds.
+  path: Assets/Prefabs/OrangeGhost.prefab
+  artifactKey: Guid(90f7bb6b6635ad24eb7247c3aa2dd35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/OrangeGhost.prefab using Guid(90f7bb6b6635ad24eb7247c3aa2dd35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '355095f1d4f87964f2c6c1e88e5b3176') in 0.009827 seconds
+  Import took 0.012913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007383 seconds.
+  path: Assets/Prefabs/OrangeGhost.prefab
+  artifactKey: Guid(90f7bb6b6635ad24eb7247c3aa2dd35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/OrangeGhost.prefab using Guid(90f7bb6b6635ad24eb7247c3aa2dd35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '355095f1d4f87964f2c6c1e88e5b3176') in 0.006934 seconds
+  Import took 0.010130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.327702 seconds.
+  path: Assets/Prefabs/PinkGhost.prefab
+  artifactKey: Guid(a9af340c2b62d1541b476e4725414109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PinkGhost.prefab using Guid(a9af340c2b62d1541b476e4725414109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ade7256bed38927f1ea74bb356c232d9') in 0.009827 seconds
+  Import took 0.012849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008095 seconds.
+  path: Assets/Prefabs/PinkGhost.prefab
+  artifactKey: Guid(a9af340c2b62d1541b476e4725414109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PinkGhost.prefab using Guid(a9af340c2b62d1541b476e4725414109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ade7256bed38927f1ea74bb356c232d9') in 0.007084 seconds
+  Import took 0.010108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.029140 seconds.
+  path: Assets/Prefabs/RedGhost.prefab
+  artifactKey: Guid(a5622471e5827844c93e12d2ed173a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/RedGhost.prefab using Guid(a5622471e5827844c93e12d2ed173a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '174db9733a44a43bf1d66f69f3d8fff9') in 0.012028 seconds
+  Import took 0.015131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005472 seconds.
+  path: Assets/Prefabs/RedGhost.prefab
+  artifactKey: Guid(a5622471e5827844c93e12d2ed173a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/RedGhost.prefab using Guid(a5622471e5827844c93e12d2ed173a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '174db9733a44a43bf1d66f69f3d8fff9') in 0.007072 seconds
+  Import took 0.010028 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
