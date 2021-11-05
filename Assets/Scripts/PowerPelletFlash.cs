@@ -19,7 +19,7 @@ public class PowerPelletFlash : MonoBehaviour
     }
 
     IEnumerator Flash() {
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(5);
         while (true) {
             powerPelletRend.enabled = false;
             yield return new WaitForSeconds(.25f);
