@@ -1763,7 +1763,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Sun Stroke!
+  m_Text: Sun Strike!
 --- !u!222 &1879697524
 CanvasRenderer:
   m_ObjectHideFlags: 0
