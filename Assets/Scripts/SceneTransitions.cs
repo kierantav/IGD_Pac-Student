@@ -8,6 +8,7 @@ public class SceneTransitions : MonoBehaviour
 {
 	public Animator crossfade;
 	public Button level1Btn;
+	public Button exitBtn;
 	public Text readyLbl;
 	public AudioSource ghostNormal;
 
@@ -19,8 +20,11 @@ public class SceneTransitions : MonoBehaviour
 			StartCoroutine(PlayAudio());
 		}
 
-		Button btn = level1Btn.GetComponent<Button>();
-		btn.onClick.AddListener(TaskOnClick);
+		Button level1 = level1Btn.GetComponent<Button>();
+		level1.onClick.AddListener(TaskOnClick);
+
+		Button exit = exitBtn.GetComponent<Button>();
+		exit.onClick.AddListener(TaskOnClick);
 	}
 
 	// Update is called once per frame
@@ -31,7 +35,13 @@ public class SceneTransitions : MonoBehaviour
 
 	void TaskOnClick()
 	{
-		StartCoroutine(LoadLevel(1));
+		if (SceneManager.GetActiveScene().buildIndex == 0)
+		{
+			StartCoroutine(LoadLevel(1));
+		}
+		else {
+			StartCoroutine(LoadLevel(0));
+		}
 	}
 
 	IEnumerator LoadLevel(int buildIndex)
