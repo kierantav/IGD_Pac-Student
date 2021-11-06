@@ -57,11 +57,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\SceneTransitions.cs" />
+    <Compile Include="Assets\Scripts\LevelGenerator.cs" />
     <Compile Include="Assets\Scripts\PacStudent.cs" />
     <Compile Include="Assets\Scripts\GhostsController.cs" />
     <Compile Include="Assets\Scripts\PacStudentController.cs" />
     <Compile Include="Assets\Scripts\Ghosts.cs" />
     <Compile Include="Assets\Scripts\PowerPelletFlash.cs" />
+    <Compile Include="Assets\Scripts\InputManager.cs" />
+    <Compile Include="Assets\Scripts\Tweener.cs" />
+    <Compile Include="Assets\Scripts\Tween.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
